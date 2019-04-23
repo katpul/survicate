@@ -19,43 +19,40 @@
 </head>
 <body <?php body_class(); ?>>
 
-
-
-
-
- <div class="container-fluid">
-<nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">
-	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/survicate_logo.svg" width="185" height="35">
-	</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse vbottom" id="navbarNavDropdown">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">SURVEY SUITE</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">FEEDBACK HUB</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">SOLUTIONS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">PRICING</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">CUSTOMERS</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">RESOURCES</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link textbold" href="#">LOG IN</a>
-      </li>
-	<li  class="signup1"><a href="">sign up free</a></li>
-    </ul>
-  </div>
-</nav>
-	</div>
+<!-- navbar -->
+<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <a class="navbar-brand" href="#">
+  	<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/survicate_logo.svg" width="185" height="35">
+  	</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse vbottom" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">SURVEY SUITE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">FEEDBACK HUB</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SOLUTIONS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PRICING</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CUSTOMERS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">RESOURCES</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link textbold" href="#">LOG IN</a>
+        </li>
+  	     <li  class="signup1"><a href="">sign up free</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
