@@ -7,6 +7,42 @@
 	Author URI: kpulawska.pl
 */
 
+@media (max-width: 700px) {
+	.smallimg{
+		width: 100%;
+	}
+	.textbig{
+		font-size: 40px !important;
+	}
+	.textsmall{
+	    font-size: 14px !important;
+	}
+	.baner1{
+		padding-top: 0px !important;
+	}
+}
+
+
+@media (max-width: 600px) {
+	.hide{
+		display: none !important;
+	}
+}
+
+@media (max-width: 1000px) {
+	.hide1{
+		display: none !important;
+	}
+}
+
+@media (max-width: 1200px) {
+	.size{
+		width: auto !important;
+	}
+}
+
+
+
 .navbar-light .navbar-nav .nav-link{
 	font-size: 12px;
 	font-weight: 400;
@@ -41,6 +77,22 @@
 	padding-right: 25px;
 }
 
+.signup2 a {
+	background: #34c359;
+	background: linear-gradient(45deg, #22c461 0%, #a8bd27 100%);
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 12px;
+	min-width: 150px;
+	padding: 10px;
+	transition: .3s;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-left: 100px;
+	padding-right: 100px;
+    }
 .vbottom{
 	padding-top: 20px;
 }
@@ -48,4 +100,37 @@
 li {
 	padding-left: 10px;
 	padding-right: 10px;
+}
+
+.baner1{
+	padding-top: 50px;
+}
+
+.textbig{
+	font-family: 'Open Sans';
+	font-size: 50px;
+}
+
+.size{
+	width: 600px;
+}
+
+.textsmall{
+
+	font-family: 'Open Sans';
+	font-size: 18px;
+	color: #7F8C8D;
+}
+
+
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BCC5C5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BCC5C5' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.size {
+	width: 1000px;
 }
