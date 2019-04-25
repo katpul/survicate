@@ -4,7 +4,7 @@
 
 		<?php get_template_part('templates/content','loop'); ?>
 
-
+		<!-- 1 baner-->
 
 <section class="container-fluid">
    <div class="row baner1">
@@ -27,7 +27,7 @@
    </div>
 </section>
 
-
+<!-- baner companies -->
 
 <section class="container-fluid">
   <div class="row pad">
@@ -49,6 +49,7 @@
   </div>
 </section>
 
+<!-- carousel -->
 
 <section id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
@@ -81,9 +82,7 @@
 	  </a>
 </section>
 
-
-
-
+<!-- icons -->
 
   <section class="features-icons text-center">
     <div class="container-fluid">
@@ -135,23 +134,22 @@
     </div>
   </section>
 
-  <div class="container-fluid pad2">
+	<!-- last baner -->
+
+  <section class="container-fluid pad2">
   <div class="row justify-content-around">
     <div class="col-xl-4 d-flex justify-content-center">
-	  <p class="textmid"><b>Empower your </b><br> business now!
-
-</p>
+	  <p class="textmid"><b>Empower your </b><br> business now!</p>
     </div>
     <div class="col-xl-4 d-flex justify-content-center">
       <form class="form-inline flex-nowrap ng-pristine ng-invalid ng-invalid-required">
-  <input class="form-control ng-pristine ng-invalid ng-invalid-required btn-pill" ng-model="password" placeholder="Enter e-mail" required="">
-  <button ng-click="updatePassword()" class="btn btn-small btn-inline btncol">SIGN UP FREE
-
-</button>
-</form>
+		  <input class="form-control ng-pristine ng-invalid ng-invalid-required btn-pill" ng-model="password" placeholder="Enter e-mail" required="">
+		  <button ng-click="updatePassword()" class="btn btn-small btn-inline btncol">SIGN UP FREE
+		 </button>
+		 </form>
     </div>
   </div>
-  </div>
+</section>
 
 <?php get_sidebar(); ?>
 
