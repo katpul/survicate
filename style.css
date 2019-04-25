@@ -22,7 +22,6 @@
 	}
 }
 
-
 @media (max-width: 600px) {
 	.hide{
 		display: none !important;
@@ -41,7 +40,15 @@
 	}
 }
 
+@media (max-width: 960px) {
+	.block1 { display: block !important;
+	}
+}
 
+
+
+
+/*navbar */
 
 .navbar-light .navbar-nav .nav-link{
 	font-size: 12px;
@@ -97,10 +104,20 @@
 	padding-top: 20px;
 }
 
+.btncol {
+	background: #34c359;
+	background: linear-gradient(45deg, #22c461 0%, #a8bd27 100%);
+	color: #FFFEFE;
+
+}
+
 li {
 	padding-left: 10px;
 	padding-right: 10px;
 }
+
+/*main */
+
 
 .baner1{
 	padding-top: 50px;
@@ -110,7 +127,10 @@ li {
 	font-family: 'Open Sans';
 	font-size: 50px;
 }
-
+.textmid{
+	font-family: 'Open Sans';
+	font-size: 30px;
+}
 .size{
 	width: 600px;
 }
@@ -122,6 +142,9 @@ li {
 	color: #7F8C8D;
 }
 
+.mb-5{
+	margin-bottom: 100px !important;
+}
 
 .carousel-control-prev-icon {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23BCC5C5' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
@@ -133,4 +156,101 @@ li {
 
 .size {
 	width: 1000px;
+}
+
+.pad{
+	padding-top: 80px;
+	padding-bottom: 40px;
+}
+
+.pad2{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.lead{
+	font-size: 13px !important;
+
+}
+
+.green{
+	color: #70C84A;
+}
+
+
+
+/*footer */
+
+.footer-menu {
+	margin-bottom: 30px;
+	overflow: auto;
+	text-align: left;
+}
+
+.column-footer {
+	float: left;
+	display: block;
+	margin-right: 2.35765%;
+	width: 14.70196%;
+}
+
+.column-footer:last-child {
+	margin-right: 0;
+}
+
+footer{
+	background-color: #29292a;
+	color: #fff;
+	font-size: 16px;
+	padding: 2em 0 3em;
+	position: relative;
+	text-align: center;
+	z-index: 2;
+}
+
+footer h6 {
+	color: #999;
+	font-weight: 300;
+	letter-spacing: .1em;
+	text-transform: uppercase;
+}
+
+footer ul {
+	list-style: none;
+	padding: 0;
+}
+
+footer ul li{
+	line-height: 27px;
+	padding: 7px 0; }
+
+footer ul a:hover {
+	color: #b6b6b6;
+}
+
+footer a.social a {
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 30px;
+	margin: 0 20px;
+	width: 30px;
+}
+
+
+footer .contact-footer, .contact-footer {
+	font-weight: 300;
+	letter-spacing: .1em;
+	padding-bottom: 3em;
+}
+
+a {
+  font-family: 'Open Sans';
+  font-size: 12px;
+  text-decoration: none;
+  color: #9CC255;
+}
+
+.text-uppercase{
+	font-size: 13px !important;
 }
